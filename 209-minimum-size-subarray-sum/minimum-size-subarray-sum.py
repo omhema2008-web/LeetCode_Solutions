@@ -9,5 +9,6 @@ class Solution:
                 maxl = min(maxl,i-j+1)
                 sum = sum-nums[j]
                 j += 1
+                
         return maxl if maxl != float('inf') else 0 
         
